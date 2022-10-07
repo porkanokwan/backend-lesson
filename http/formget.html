@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <!-- ทำให้เราสามารถใช้ภาษาไทย และภาษาอื่นๆ ได้ -->
+    <meta charset="utf8">
+<body>
+
+<h1>The form method="get" attribute</h1>
+<!-- ใช้ attribute name กับ value ในการส่ง data ให้ server(Node) เอาไปเพิ่มใน database ต่อไปได้ เช่น fname=John&lname=Doe -->
+<!-- action เป็นการเขียนเหมือนกับ req.url ไว้ได้เลย เช่น './ชื่อไฟล์' เป็นต้น -->
+<form action="/getdata" method="get" target="_blank">
+  <label for="fname">First name(ชื่อ) :</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name(นามสกุล) :</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<p>Click on the submit button, and the input will be sent to a page on the server called "/getdata".</p>
+
+</body>
+</html>

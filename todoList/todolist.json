@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Shopping",
+    "id": "48d3c683-96d5-45d1-8873-10fbd93a81b6",
+    "completed": false,
+    "dueDate": null
+  },
+  {
+    "title": "Party",
+    "id": "a456d470-850b-4fb6-8433-427563b73af0",
+    "completed": true,
+    "dueDate": "1999-05-19T00:00:00.000Z"
+  },
+  {
+    "title": "Meeting with friends",
+    "id": "93b82e21-c0ce-4758-9c1c-5649d672ed50",
+    "completed": false,
+    "dueDate": "2020-05-03T00:00:00.000Z"
+  },
+  {
+    "id": "9bf7390b-d99b-4a6d-b940-a6b9818ab30e",
+    "title": "Meeting",
+    "completed": true,
+    "dueDate": "1998-11-03"
+  }
+]
